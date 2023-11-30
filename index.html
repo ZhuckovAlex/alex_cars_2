@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlexCars</title>
+    <link rel="stylesheet" href="styles/swiper.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__top">
+        <div class="header__container container">
+            <a href="index.html"><img src="images/logo.svg" class="header__logo"></a>
+            <div class="header__flex-login">
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li class="header__item"><a href="index.html" class="header__link">HOME</a></li>
+                        <li class="header__item"><a href="#" class="header__link">ABOUT US</a></li>
+                        <li class="header__item"><a href="#" class="header__link">SERVICE</a></li>
+                        <li class="header__item"><a href="#" class="header__link">GALLERY</a></li>
+                    </ul>
+                </nav>
+                <button class="header__authorization">LOGIN</button>
+
+                <div class="header__burger">
+                    <span></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="header-heading">
+        <div class="header-heading__container container">
+            <p class="header-heading__intro">Find your dream car</p>
+            <h1 class="header-heading__main-title">Aston Martin DBS Superleggera</h1>
+            <p class="header-heading__model">model</p>
+            <div class="header-heading__price">2019  $359 900</div>
+                <div class="header-heading__detail-background">
+                    <div class="header-heading__detail">SEE DETAIL</div>
+                    <div class="header-heading__detail-arrow"></div>
+                </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="price-list">
+        <div class="price-list__container container">
+            <h2 class="price-list__title">GET OUR BESTOFFER <img src="images/discount.svg"  alt="" class="price-list__icon"></h2>
+            <ul class="price-list__wrapper">
+               <li class="price-list__item">
+                   <img class="price-list__photo" src="images/gallery1.svg" alt="">
+                   <img class="price-list__rating" src="images/reating.png" alt="">
+                   <p class="price-list__name">Toyota Supra</p>
+                   <p class="price-list__price">$210 890</p>
+               </li>
+                <li class="price-list__item">
+                    <img class="price-list__photo" src="images/gallery2.svg" alt="">
+                    <img class="price-list__rating" src="images/reating.png" alt="">
+                    <p class="price-list__name">Nissan Skyline</p>
+                    <p class="price-list__price">$259 900</p>
+                </li>
+                <li class="price-list__item">
+                    <img class="price-list__photo" src="images/gallery3.svg" alt="">
+                    <img class="price-list__rating" src="images/reating.png" alt="">
+                    <p class="price-list__name">Mazda RX-7</p>
+                    <p class="price-list__price">$210 890</p>
+                </li>
+                <li class="price-list__item">
+                    <img class="price-list__photo" src="images/gallery4.svg" alt="">
+                    <img class="price-list__rating" src="images/reating.png" alt="">
+                    <p class="price-list__name">Dodge Charger</p>
+                    <p class="price-list__price">$310 890</p>
+                </li>
+                <li class="price-list__item">
+                    <img class="price-list__photo" src="images/gallery5.svg" alt="">
+                    <img class="price-list__rating" src="images/reating.png" alt="">
+                    <p class="price-list__name">Porsche 911</p>
+                    <p class="price-list__price">$210 890</p>
+                </li>
+                <li class="price-list__item">
+                    <img class="price-list__photo" src="images/gallery6.svg" alt="">
+                    <img class="price-list__rating" src="images/reating.png" alt="">
+                    <p class="price-list__name">Ford Mustang</p>
+                    <p class="price-list__price">$320 890</p>
+                </li>
+            </ul>
+            <img src="images/ellipse.svg" alt="круг" class="gallery__ellipse ellipse-1">
+            <img src="images/ellipse.svg" alt="круг" class="gallery__ellipse ellipse-2">
+            <img src="images/ellipse.svg" alt="круг" class="gallery__ellipse ellipse-3">
+            <img src="images/ellipse.svg" alt="круг" class="gallery__ellipse ellipse-4">
+        </div>
+    </section>
+    <section class="clients">
+        <div class="clients__container container">
+            <h2 class="clients__title">THEY TRUST US</h2>
+            <div class="wrapper">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/logo1.png" class="slider-img" alt="Trek" ></div>
+                        <div class="swiper-slide"><img src="images/logo2.png" class="slider-img" alt="Cibach"></div>
+                        <div class="swiper-slide"><img src="images/logo3.png" class="slider-img" alt="kTm"></div>
+                        <div class="swiper-slide"><img src="images/logo4.png" class="slider-img" alt="LAYZ"></div>
+                        <div class="swiper-slide"><img src="images/logo5.png" class="slider-img" alt="FANATEC"></div>
+                    </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="login">
+        <div class="login__container container">
+            <h2 class="login__title">login</h2>
+            <form action="#" method="post" class="login__form">
+                <label for="user" class="login__label">username</label>
+                <input type="text" id="user" class="login__text-input">
+                <label for="pass" class="login__label">password</label>
+                <input type="password" id="pass" class="login__text-input login-input2">
+                <input type="submit" class="login__submit" value="sign in">
+            </form>
+        </div>
+    </section>
+    <section class="help">
+        <div class="help__container container">
+            <div class="help-titles">
+                <img src="images/faq.png" alt="" class="help__help-img help-img1">
+                <img src="images/service.png" alt="" class="help__help-img help-img2">
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__social-network">
+            <a href="#" class="footer__social-href"><img src="images/telega.svg" class="footer__social-img" alt="vk"></a>
+            <a href="#" class="footer__social-href"><img src="images/vk.svg" class="footer__social-img" alt="telega"></a>
+            <a href="#" class="footer__social-href"><img src="images/inst.svg" class="footer__social-img" alt="inst"></a>
+        </div>
+        <div class="footer__address">
+            <div class="footer__address-flex">
+                <img src="images/address.svg" alt="" class="footer__address-img">
+                <p class="footer__address-text">4620 Startrain DrNorth Las Vegas,Nevada(NV), 89031</p>
+            </div>
+            <div class="footer__address-flex">
+                <img src="images/tel.svg" alt="" class="footer__address-img">
+                <p class="footer__address-text"><a href="tel:89999999999" class="footer__tel-href">+7 (999) 999 - 99 - 99</a></p>
+            </div>
+        </div>
+        <div class="footer__company">DRIFT_CARS</div>
+    </div>
+</footer>
+<script src="js/swiper.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
