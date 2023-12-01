@@ -33,7 +33,8 @@ const swiper = new Swiper('.swiper', {
     },
     breakpoints: {
         768: {
-            slidesPerView: 3
+            slidesPerView: 3,
+            centeredSlides:true
         }
     },
 });
