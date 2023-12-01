@@ -13,7 +13,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     // effect:'cube',
     freeMode:true,
-    slidesPerView: 3,
+    slidesPerView: 1,
     centeredSlides:true,
     // If we need pagination
     pagination: {
@@ -30,5 +30,10 @@ const swiper = new Swiper('.swiper', {
     // And if we need scrollbar
     scrollbar: {
         el: '.swiper-scrollbar',
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 3
+        }
     },
 });
